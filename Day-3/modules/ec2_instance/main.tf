@@ -7,6 +7,6 @@ resource "aws_instance" "example" {
     key_name = "6sept"
     instance_type = var.instance_type_value
     tags = {
-      Name = "modulevm1"
+      Name = "modulevm1_git"
     }
 }
